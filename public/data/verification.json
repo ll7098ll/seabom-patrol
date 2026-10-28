@@ -1,0 +1,506 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-28T22:45:30.198Z",
+  "model": "elementary-5-district-patrol",
+  "checks": [
+    {
+      "name": "도로 구간 중간에 정확히 배치: f=0.25는 x=250m",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "직접 위치 차이: 200m 출발은 3.1분, 800m 출발은 1.9분",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "출발·복귀는 실제 지정한 도로 구간 위치를 사용",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "클릭은 가까운 차량 도로의 선분에 붙고 먼 곳·보행 전용길은 거부",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "도로 없는 ID·범위 밖 비율·미배치·중복 차량은 실행 거부",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "미배치 10칸 저장 복원과 완전 배치 검증을 구분",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "한 요청 미리보기는 실제 모형의 도로 시간·출발 준비·접근 합계와 일치",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "선택 차량 비교와 가장 빠른 차량 배정을 명시적으로 구분",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "일방통행 도로 중간에서 역주행 대신 연결 경로로 우회",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "고정 시드·같은 입력으로 구간 배치를 재실행하면 요청별 결과 동일",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "예시 10대와 집중 10대는 모두 차량용 도로 위 유효 위치",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "임의 구간 배치의 가상 1주 965건: 총수·시간 분해·중복 업무·경로·지원 배정 검사",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "위치를 바꿔도 동일한 요청·업무시간을 사용하며 결과가 실제로 달라짐",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "모든 출동은 작업 가능한 시점의 실제 위치에서 시작하고 원래 도로 위치로 복귀",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "이전 업무 가정을 명시한 회귀 검사: 기존 노드 배치의 차량·도착시간 일치",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "원자료 965건의 현장·서류 시간을 덮어쓰지 않고 그대로 사용",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "동시 11건: 10대만 즉시 배정하고 11번째는 실제 업무 종료까지 대기",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "동시 11건: 재생에서 차량 1대는 같은 순간 2개 사건을 처리하지 않음",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "10대 점유 중 긴급 요청이 들어오면 대기 중 일반 요청보다 먼저 배정",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "2대 사건: 1대만 가용할 때 지원 대기하고 두 차량 모두 도착 뒤 업무 종료",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "재생 차량 위치는 엔진의 출동·처리·복귀 위치와 일치",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "원자료 전체 시간축: 대기 요청이 있을 때 배정 가능한 차량을 방치하지 않음",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "대기 최대 시점의 사건 목록·미배정 필요 대수·10대 상태의 집계 일치",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "일주일 마지막 경계: 도착·이동 중·미배정 요청 합계 보존",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "동시 출동 실행의 원자료·차량 수·대기열·지원 대수 감사 통과",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "업무 시간이 누락된 경우에만 명시적 가정값을 사용하고 시드로 재현",
+      "pass": true,
+      "group": "regression"
+    },
+    {
+      "name": "도로 시간 전담 구역: 100m·900m 배치의 경계는 500m, 동률은 번호순",
+      "pass": true,
+      "group": "district"
+    },
+    {
+      "name": "일반 신고는 다른 구역 9대가 가용해도 업무 중인 담당차를 기다림",
+      "pass": true,
+      "group": "district"
+    },
+    {
+      "name": "긴급 신고는 담당차가 업무 중일 때 인접 구역의 가용 차량에 지원 요청",
+      "pass": true,
+      "group": "district"
+    },
+    {
+      "name": "2대 요청은 담당차 점유 중에도 지원차 2대를 실제로 점유하고 지원 도착을 기다림",
+      "pass": true,
+      "group": "district"
+    },
+    {
+      "name": "사건은 원자료 발생시각에 등장하며 미래 신고를 현재 사건으로 표시하지 않음",
+      "pass": true,
+      "group": "district"
+    },
+    {
+      "name": "전담 구역의 도로 길이는 전체 차량 도로 길이와 같고 격자 소속은 유일",
+      "pass": true,
+      "group": "district"
+    },
+    {
+      "name": "순찰은 담당 구역 도로 안의 닫힌 경로이고 일방통행을 위반하지 않음",
+      "pass": true,
+      "group": "district"
+    },
+    {
+      "name": "신고 전에도 10대가 구역을 순찰하며 실제 위치가 변하고 출동 가능 상태 유지",
+      "pass": true,
+      "group": "district"
+    },
+    {
+      "name": "첫 출동은 고정 배치점이 아닌 출동 시점의 순찰 경로상 실제 위치에서 시작",
+      "pass": true,
+      "group": "district"
+    },
+    {
+      "name": "업무 후 담당 순찰 코스에 다시 합류하며 복귀 종료 경계에 순간 이동 없음",
+      "pass": true,
+      "group": "district"
+    },
+    {
+      "name": "전담 구역 재생은 엔진의 순찰·출동·복귀 위치와 일치",
+      "pass": true,
+      "group": "district"
+    },
+    {
+      "name": "원자료의 발생시각·업무시간을 유지하며 일반 단일 요청은 담당차만 배정",
+      "pass": true,
+      "group": "district"
+    },
+    {
+      "name": "미래 신고의 위치와 시간을 바꿔도 담당 구역과 순찰 경로는 동일",
+      "pass": true,
+      "group": "district"
+    },
+    {
+      "name": "전담·순찰 모형도 중복 업무·지원 도착·대기 후보·총수 감사를 통과",
+      "pass": true,
+      "group": "district"
+    }
+  ],
+  "spread": {
+    "mean": 82.838931681919,
+    "p90": 246.08807402435286,
+    "urgentRate": 0.3303964757709251,
+    "total": 965,
+    "notArrived": 24
+  },
+  "cluster": {
+    "mean": 914.0388312618339,
+    "p90": 3966.7704348834745,
+    "urgentRate": 0.2555066079295154,
+    "notArrived": 516
+  },
+  "runChecks": {
+    "allPassed": true,
+    "checks": [
+      {
+        "id": "total",
+        "name": "요청 총수 보존",
+        "pass": true,
+        "detail": "도착 941 + 이동 중 0 + 미배정 24 = 965건"
+      },
+      {
+        "id": "formula",
+        "name": "도착시간 5항의 합계",
+        "pass": true,
+        "detail": "모든 배정 요청을 확인. 최대 오차 2.33e-12분"
+      },
+      {
+        "id": "overlap",
+        "name": "한 차량의 중복 업무 금지",
+        "pass": true,
+        "detail": "979개 차량 업무에서 이전 현장 접근·업무·차량 복귀 중 재배정 0건"
+      },
+      {
+        "id": "route",
+        "name": "도로 구간 시간 합계",
+        "pass": true,
+        "detail": "979개 출동 경로의 구간 합계와 이동시간 비교"
+      },
+      {
+        "id": "oneway",
+        "name": "일방통행 준수",
+        "pass": true,
+        "detail": "차량 출동의 도로 진행 방향 위반 0건"
+      },
+      {
+        "id": "choice",
+        "name": "배정 규칙에 따른 가용 후보 순서",
+        "pass": true,
+        "detail": "954회 배정에서 담당→인접 지원→확대 지원 순서와 단계 내 도로 이동시간 비교. 동률이면 차량 번호순"
+      },
+      {
+        "id": "mean",
+        "name": "평균·90% 시간의 분모",
+        "pass": true,
+        "detail": "관찰 종료 전에 도착한 941건으로 다시 집계"
+      },
+      {
+        "id": "urgent",
+        "name": "긴급 도착률의 분모",
+        "pass": true,
+        "detail": "8분 이내 도착 75 / 긴급 요청 전체 227건"
+      },
+      {
+        "id": "support",
+        "name": "지원 차량 도착 전 업무 완료 방지",
+        "pass": true,
+        "detail": "2대 요청은 첫 도착과 지원 차량 도착을 구분. 모든 참여 차량이 지원 도착 뒤 현장 업무·기록 시간이 지나야 현장을 떠나는지 확인"
+      },
+      {
+        "id": "access",
+        "name": "현장 접근과 차량 복귀 시간 반영",
+        "pass": true,
+        "detail": "도로에서 현장까지 거리 ÷ 분당 75m. 현장 종료 후 차량으로 돌아오는 시간도 업무에 포함"
+      }
+    ],
+    "maxError": 2.3305801732931286e-12,
+    "taskCount": 979,
+    "urgentOnTime": 75,
+    "arrived": 941
+  },
+  "operations": {
+    "peakQueue": {
+      "time": 9978.683333333334,
+      "busy": 10,
+      "available": 0,
+      "queued": 35,
+      "remainingUnits": 35,
+      "support": 0,
+      "active": 44
+    },
+    "peakBusy": {
+      "time": 621.0999999999999,
+      "busy": 10,
+      "available": 0,
+      "queued": 3,
+      "remainingUnits": 3,
+      "support": 1,
+      "active": 11
+    },
+    "noFreeMinutes": 1437.1159172352995,
+    "queueMinutes": 9222.755737951062,
+    "waited": 612,
+    "assigned": 941,
+    "unassigned": 24,
+    "meanQueueWait": 75.12236597679139,
+    "maxQueueWait": 791.4553366040268,
+    "supportRequests": 38,
+    "supportDelayed": 13,
+    "unfinished": 24,
+    "workload": {
+      "sceneFromData": 965,
+      "paperworkFromData": 965,
+      "sceneMean": 46.25699481865285,
+      "paperworkMean": 12.586528497409326
+    },
+    "carLoad": [
+      {
+        "id": 1,
+        "calls": 116,
+        "occupiedMinutes": 7590.52248849895
+      },
+      {
+        "id": 2,
+        "calls": 120,
+        "occupiedMinutes": 7752.9451237511685
+      },
+      {
+        "id": 3,
+        "calls": 135,
+        "occupiedMinutes": 8464.550411054632
+      },
+      {
+        "id": 4,
+        "calls": 132,
+        "occupiedMinutes": 8503.529059906152
+      },
+      {
+        "id": 5,
+        "calls": 82,
+        "occupiedMinutes": 5796.161418569373
+      },
+      {
+        "id": 6,
+        "calls": 59,
+        "occupiedMinutes": 4287.957199501705
+      },
+      {
+        "id": 7,
+        "calls": 105,
+        "occupiedMinutes": 7224.73167331847
+      },
+      {
+        "id": 8,
+        "calls": 80,
+        "occupiedMinutes": 5798.4755264807145
+      },
+      {
+        "id": 9,
+        "calls": 87,
+        "occupiedMinutes": 5603.932390171193
+      },
+      {
+        "id": 10,
+        "calls": 63,
+        "occupiedMinutes": 4629.908082664066
+      }
+    ],
+    "arrived": 941,
+    "districts": [
+      {
+        "id": 1,
+        "requests": 111,
+        "arrived": 107,
+        "mean": 142.9625515413095,
+        "waited": 76,
+        "assisted": 14,
+        "assistsGiven": 22,
+        "supportAwayMinutes": 1801.9820028648455,
+        "patrolMinutes": 2434.5577308858947,
+        "maxPatrolGap": 1167.8598935496111
+      },
+      {
+        "id": 2,
+        "requests": 120,
+        "arrived": 117,
+        "mean": 85.0645179786949,
+        "waited": 89,
+        "assisted": 18,
+        "assistsGiven": 20,
+        "supportAwayMinutes": 1670.7575123161023,
+        "patrolMinutes": 2285.4360762526676,
+        "maxPatrolGap": 1002.3833333333332
+      },
+      {
+        "id": 3,
+        "requests": 160,
+        "arrived": 157,
+        "mean": 111.39990037276041,
+        "waited": 114,
+        "assisted": 35,
+        "assistsGiven": 11,
+        "supportAwayMinutes": 823.1104459936357,
+        "patrolMinutes": 1591.469595065939,
+        "maxPatrolGap": 1480.2739220950493
+      },
+      {
+        "id": 4,
+        "requests": 153,
+        "arrived": 149,
+        "mean": 88.99662570751262,
+        "waited": 105,
+        "assisted": 35,
+        "assistsGiven": 17,
+        "supportAwayMinutes": 1453.5175561336396,
+        "patrolMinutes": 1544.8532688811586,
+        "maxPatrolGap": 1229.1789873927073
+      },
+      {
+        "id": 5,
+        "requests": 58,
+        "arrived": 58,
+        "mean": 53.65828972249732,
+        "waited": 30,
+        "assisted": 6,
+        "assistsGiven": 29,
+        "supportAwayMinutes": 2453.6517867748453,
+        "patrolMinutes": 4176.887117214162,
+        "maxPatrolGap": 598.7039242062315
+      },
+      {
+        "id": 6,
+        "requests": 28,
+        "arrived": 28,
+        "mean": 26.708379453442312,
+        "waited": 9,
+        "assisted": 6,
+        "assistsGiven": 36,
+        "supportAwayMinutes": 2980.5158831888475,
+        "patrolMinutes": 5659.947126676699,
+        "maxPatrolGap": 315.6477257208826
+      },
+      {
+        "id": 7,
+        "requests": 121,
+        "arrived": 120,
+        "mean": 53.51762668100375,
+        "waited": 68,
+        "assisted": 23,
+        "assistsGiven": 7,
+        "supportAwayMinutes": 638.4317099783493,
+        "patrolMinutes": 2832.4045567745143,
+        "maxPatrolGap": 690.7460118928557
+      },
+      {
+        "id": 8,
+        "requests": 74,
+        "arrived": 69,
+        "mean": 45.475045257521415,
+        "waited": 45,
+        "assisted": 13,
+        "assistsGiven": 23,
+        "supportAwayMinutes": 1966.0842703950261,
+        "patrolMinutes": 4213.986001714338,
+        "maxPatrolGap": 519.4670402303618
+      },
+      {
+        "id": 9,
+        "requests": 94,
+        "arrived": 90,
+        "mean": 78.79276193693764,
+        "waited": 59,
+        "assisted": 17,
+        "assistsGiven": 14,
+        "supportAwayMinutes": 1127.7571701638083,
+        "patrolMinutes": 4451.826580335951,
+        "maxPatrolGap": 977.1397875526604
+      },
+      {
+        "id": 10,
+        "requests": 46,
+        "arrived": 46,
+        "mean": 31.31204734566239,
+        "waited": 17,
+        "assisted": 4,
+        "assistsGiven": 21,
+        "supportAwayMinutes": 1764.296869817817,
+        "patrolMinutes": 5371.194439255316,
+        "maxPatrolGap": 367.46666666666715
+      }
+    ]
+  },
+  "district": {
+    "mean": 82.838931681919,
+    "notArrived": 24,
+    "requests": 965
+  },
+  "regressionMode": "explicit global dispatch, stationary vehicles"
+}

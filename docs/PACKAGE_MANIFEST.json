@@ -1,0 +1,346 @@
+{
+  "date": "2026-10-29",
+  "source": "saebom-site-update",
+  "sourceVersion": "3.0.0",
+  "excludes": [
+    "docs/PACKAGE_MANIFEST.json"
+  ],
+  "fileCount": 67,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 118,
+      "sha256": "637ee0c785c778a7bfc9799b5299a559f660768ff1c5c7916a82fc725964d766"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 315,
+      "sha256": "b6c6d913a789ecadae2585a1c8089958d2420cd0ec31e91a0748d85aa80010c4"
+    },
+    {
+      "path": ".github/workflows/deploy-pages.yml",
+      "bytes": 956,
+      "sha256": "9dcb8d109f22d25e761d1008679163fc2b28c1a438f7ffdd92d2b8f967b052ff"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 153,
+      "sha256": "10461d92f97ca759de7c7190ea592d3c7d9aee8c0309938bf7b5760ccf17abe7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5822,
+      "sha256": "16bfab5a2f327e466503c0bb8cdab011510b516718e50400ba917a20fe12e247"
+    },
+    {
+      "path": "docs/DATA_DICTIONARY.md",
+      "bytes": 10492,
+      "sha256": "4d1eab75cb28247fe699781f47993fb64a572c939e236bb6738820af8d08b881"
+    },
+    {
+      "path": "docs/DEVELOPMENT.md",
+      "bytes": 3879,
+      "sha256": "5c43135bd1eddbe067a7ff8faf0bb989f5f75f93862e6372f63c195c0f32a35b"
+    },
+    {
+      "path": "docs/GITHUB_AND_DEPLOYMENT.md",
+      "bytes": 4246,
+      "sha256": "6d0ed4f03d2d06a2fda759bc3798dbb27138058a4926d2eec7ca17dfe9272ef2"
+    },
+    {
+      "path": "docs/RELEASE_NOTES.md",
+      "bytes": 2128,
+      "sha256": "d73c73336a5019a66bdef5d3c03a1d7deb16d2b8ff32b48c0967753717da710f"
+    },
+    {
+      "path": "docs/SIMULATION_MODEL.md",
+      "bytes": 4836,
+      "sha256": "cf892891c792144a831d28281b7d172630b470b1d84b462aa5911f609d1d8d77"
+    },
+    {
+      "path": "docs/TEACHER_GUIDE.md",
+      "bytes": 3215,
+      "sha256": "dc10106202f37ca4a0740637067a9011754a0138fb2bfde629fb3e2e75fd2bd0"
+    },
+    {
+      "path": "docs/THIRD_PARTY_NOTICES.md",
+      "bytes": 2021,
+      "sha256": "3a46040075f5a883efa981503bb6b8a7b31176b46c2e1778a4134965b8c6f398"
+    },
+    {
+      "path": "docs/USER_GUIDE.md",
+      "bytes": 4593,
+      "sha256": "1c7344131504829efde19701083bfb3cce904bf7136d5cbd3f6775f623899315"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 3343,
+      "sha256": "e9d4db690a134f1f65c58c894df332bcd1ea9c43e6f2905ce1678707c3c92a04"
+    },
+    {
+      "path": "docs/browser-verification.json",
+      "bytes": 558,
+      "sha256": "c6eddc6ca85ae7b6a2d0f3a7ade241d597b68b93c7954ddbf102fb5c023ad514"
+    },
+    {
+      "path": "docs/images/observation.png",
+      "bytes": 380522,
+      "sha256": "ea100d97501695f7a665291420b6e6fba49ec988aa82ce2175a0225c0d9a2ef2"
+    },
+    {
+      "path": "index.html",
+      "bytes": 581,
+      "sha256": "ddb22f2485ce8b734a7c6787e398050f4f71d5e80acfde3608897ed0af7fe0fb"
+    },
+    {
+      "path": "legacy-integrity.json",
+      "bytes": 1214,
+      "sha256": "c9915021d9d7a10899a1a02770799fbeaca5f1e16fbdd6f98c70774ff8c3f2c8"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 60114,
+      "sha256": "3bafe4e7a7395538e837090ff11dfedc0bbd85ed1490d7beef5c415d846fba7a"
+    },
+    {
+      "path": "package.json",
+      "bytes": 806,
+      "sha256": "3de74527c99a676d9338adfc8b4964395099a06c48a6aa497b57371787944e62"
+    },
+    {
+      "path": "public/brand/saebom-logo.svg",
+      "bytes": 792,
+      "sha256": "69b31978fc77ebf43a944477fd9daef9e3fe1fdaab489a609d0219c65f5d371e"
+    },
+    {
+      "path": "public/brand/saebom-symbol.svg",
+      "bytes": 476,
+      "sha256": "31f6386a81977af03147233a37f88531ffaba27d2c72d12e0097805c73acafb8"
+    },
+    {
+      "path": "public/data/saebom-city.json",
+      "bytes": 4145379,
+      "sha256": "67e98d5a26520cdf865513cff0654aedf4ed6657b0df78e7214302ed8c201c53"
+    },
+    {
+      "path": "public/data/verification.json",
+      "bytes": 14825,
+      "sha256": "526d9d310193951875f8b6c565f2f423fe1a0dc7b5f9d566868de3026a9d7df6"
+    },
+    {
+      "path": "public/fonts/LICENSE.txt",
+      "bytes": 4418,
+      "sha256": "d31ddd9f2bed32fd7e302a205cf2380ba0de6529152d239ef99cfb6f261bfc04"
+    },
+    {
+      "path": "public/fonts/PretendardVariable.woff2",
+      "bytes": 2057688,
+      "sha256": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4"
+    },
+    {
+      "path": "public/legacy/app.js",
+      "bytes": 36352,
+      "sha256": "83949d008da7c93625c1377d77ec860c2331ea0be85ef19b2873d6faf5f7c1ea"
+    },
+    {
+      "path": "public/legacy/compare.js",
+      "bytes": 14965,
+      "sha256": "3bb5f080d10cf7ca8f2aac85da738b94944cb611d01f876cbc01d4c253196de7"
+    },
+    {
+      "path": "public/legacy/data.js",
+      "bytes": 4145396,
+      "sha256": "16f66e1f49589680c3e913e41f8d06f44e6c9fa263b813b9193fed8224169bc3"
+    },
+    {
+      "path": "public/legacy/dual-map.js",
+      "bytes": 20529,
+      "sha256": "406528a1ba2fee05578e9fc9c14ee83fc52cb2e7707eff58151edd40a970781c"
+    },
+    {
+      "path": "public/legacy/engine.js",
+      "bytes": 13504,
+      "sha256": "60196cff43653cfc34e096e4af3452fbc70bbd90642aab8e5e56c61aeef83d3c"
+    },
+    {
+      "path": "public/legacy/gis.js",
+      "bytes": 25937,
+      "sha256": "f7329baae45435320e11a79f3ebcfc680187be14418ffc07e0841609b1b6b0da"
+    },
+    {
+      "path": "public/legacy/index.html",
+      "bytes": 5261,
+      "sha256": "f18042f157bb4113c1ca1a9567f77388f9014de2cc6863038afeb19987de3e35"
+    },
+    {
+      "path": "public/legacy/journey.js",
+      "bytes": 5490,
+      "sha256": "788cf9247c5671406b8f94ad13db50c593965ddced6348ace55060424e672984"
+    },
+    {
+      "path": "public/legacy/product.css",
+      "bytes": 20297,
+      "sha256": "9ea9d6831491afcb954d214640352ea433c46ffdd346b1d1b94376c188d4da68"
+    },
+    {
+      "path": "public/legacy/student-layers.js",
+      "bytes": 11622,
+      "sha256": "ab28c56f18897875be9a24e3ab0c5dca68b391c2575a7a4910d13c44221f5353"
+    },
+    {
+      "path": "public/legacy/student-map.js",
+      "bytes": 8729,
+      "sha256": "ce5b9cd830ccf626d215a14a54c56f9cd45c3325e3ba5071366a0ec1b88cfedf"
+    },
+    {
+      "path": "public/legacy/student-model.js",
+      "bytes": 5740,
+      "sha256": "867711667afdffb78e7ad8c8fe07fb16954434c6c4aa4198a80615461112947f"
+    },
+    {
+      "path": "public/legacy/student-presentation.js",
+      "bytes": 12743,
+      "sha256": "50e56320b44687348529ba6946ff964e21455114cdbf1ab403267653ca18f4e4"
+    },
+    {
+      "path": "public/legacy/style.css",
+      "bytes": 25718,
+      "sha256": "f24fdf5d2cfc2fa2f81839760104d1c507ed97d1f7d7ac46032590a9cd8847e9"
+    },
+    {
+      "path": "scripts/check-package.mjs",
+      "bytes": 1891,
+      "sha256": "8d8b6a46dc4190ae44872e215d5ebc831501583ee819261c7f7fdeededfb60df"
+    },
+    {
+      "path": "scripts/fixtures/legacy-engine.cjs",
+      "bytes": 13419,
+      "sha256": "75e33078e9bb39c42ec5643dfdcc498427a902aa1566b665261b86fd6cc1041a"
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "bytes": 19535,
+      "sha256": "dcf110c131c872985b2681a1f1979007f1e4207401a009fc4f89b4aaa88473f0"
+    },
+    {
+      "path": "src/App.jsx",
+      "bytes": 18104,
+      "sha256": "5c66fec280596d914e787f46a3e65245c4c8988107704d954c14a4f8f3ea63a1"
+    },
+    {
+      "path": "src/FreeMap.jsx",
+      "bytes": 22216,
+      "sha256": "ad5968f2a414ce84d4dfb619e3befeb308f9390593bcce351e3efb8eeee00b33"
+    },
+    {
+      "path": "src/ObservationGuide.jsx",
+      "bytes": 4029,
+      "sha256": "f64495422461c1b68259208605f5651a77f84b553c88ae5398826b48e7fbd89d"
+    },
+    {
+      "path": "src/OperationsViews.jsx",
+      "bytes": 15372,
+      "sha256": "a33d5d96fd17e0a20fd30ec7f7aef185e099761fed7225bfa3a7f9685c6049fc"
+    },
+    {
+      "path": "src/Panels.jsx",
+      "bytes": 22390,
+      "sha256": "2fc270b1b52f4afa221308a9143cd2b8105bb5981706ac994b48e5f1fe1cfff7"
+    },
+    {
+      "path": "src/context.js",
+      "bytes": 141,
+      "sha256": "3b3b842efc592714cb2cd9849ddee341f8ce2642f93429281999fc5efd606228"
+    },
+    {
+      "path": "src/icons.jsx",
+      "bytes": 1861,
+      "sha256": "e92070bf4c59464fa693781dac509c05d0a284bd5440a10c508d724b33be5779"
+    },
+    {
+      "path": "src/journey.css",
+      "bytes": 2451,
+      "sha256": "c2b5b2cb4609420adbdc2dfa5bd00962cfe21a1581f845884df727c143d7251b"
+    },
+    {
+      "path": "src/main.jsx",
+      "bytes": 1498,
+      "sha256": "9d4a1779688da3767f9842d3f6718108aeb804e44454f64f744cf21e7b021db7"
+    },
+    {
+      "path": "src/model/engine.js",
+      "bytes": 16100,
+      "sha256": "7f7651c7d147d24daf60a65fd033a0e2ec6a918f1006e3848b358d3b25e1a53c"
+    },
+    {
+      "path": "src/model/gis.js",
+      "bytes": 25696,
+      "sha256": "04cd7502d17b2753e412b6c56bf3a65afa4d2861e3f5ad5fa27cc1bea1ffcae5"
+    },
+    {
+      "path": "src/model/observations.js",
+      "bytes": 2815,
+      "sha256": "63e4434b87bc7e21f07162a8181d306d7fb771ed16c0575ab99e5a5267a4f0e6"
+    },
+    {
+      "path": "src/model/placement.js",
+      "bytes": 2955,
+      "sha256": "e12ad95501942cf012dce5f7b70f7a2dbeedd522cb1ffaa572845a0bf874033d"
+    },
+    {
+      "path": "src/model/student-layers.js",
+      "bytes": 11387,
+      "sha256": "a50b0c58cba6e46f6970b61687850daf8aef1cb3ea3c07e7283bc09f5ad02b34"
+    },
+    {
+      "path": "src/model/student-presentation.js",
+      "bytes": 12499,
+      "sha256": "a4c82740cda44615b876138546d6c80453c45ed4cfae5d6d7852f3e84d8a6c17"
+    },
+    {
+      "path": "src/model/territories.js",
+      "bytes": 9696,
+      "sha256": "69a8381279bc9b935141706614172122f9fca5254aa721a51a433117e2602047"
+    },
+    {
+      "path": "src/observations.css",
+      "bytes": 6601,
+      "sha256": "d8211a4a8f3a819d212786de80b972056b0e5ea3f125cd73f6a97bc481ec0457"
+    },
+    {
+      "path": "src/operations.css",
+      "bytes": 11780,
+      "sha256": "41a3455054e40c8437d8bb048e648baa368408513689cfa9030fcda33787c1f8"
+    },
+    {
+      "path": "src/simulation/audit.js",
+      "bytes": 4245,
+      "sha256": "7d5f51cebc958635a919bea78f4f53c9872f739bc1403f14b13cac3f2eecb045"
+    },
+    {
+      "path": "src/simulation/operations.js",
+      "bytes": 11018,
+      "sha256": "bfe9ee0a8a0426cc38384a9698f7b8f8571513bda35cf64338f7e035a104c58f"
+    },
+    {
+      "path": "src/simulation/worker.js",
+      "bytes": 2347,
+      "sha256": "cefa8dc02a5a1f9b04eb78f5b9c022cdce22a9377bee42efde4d8b4326c557dc"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 38461,
+      "sha256": "b6a10e60d573eef56700d03aabd1b9e5635ddf7a7631ae656d68e13b59c74ebd"
+    },
+    {
+      "path": "src/theme.css",
+      "bytes": 17871,
+      "sha256": "b1cfa8607006e814867476bb9258df3087a3736fd47c027f68b41b1025667f05"
+    },
+    {
+      "path": "vite.config.js",
+      "bytes": 250,
+      "sha256": "f6a7d5b9fd89ae10296ba93c2cb72125dc7557fb29803acd5131eeff6c3711ef"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "url": "http://127.0.0.1:5187/saebom-check/",
+  "checkedAt": "2026-10-28T22:47:01.631Z",
+  "browser": "Microsoft Edge headless",
+  "desktop": "1440x1050",
+  "mobile": "390x844",
+  "checks": [
+    "observation evidence",
+    "10-car example and reference",
+    "Worker weekly simulation",
+    "10 replay car markers",
+    "verification JSON",
+    "JSON export and import roundtrip",
+    "legacy navigation",
+    "logo font and city JSON",
+    "mobile viewport without horizontal overflow"
+  ],
+  "errors": [],
+  "badResponses": []
+}
